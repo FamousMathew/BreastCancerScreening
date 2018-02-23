@@ -1,0 +1,46 @@
+.feature-box
+{
+    background-color:rgba($clr-white, 1.0);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($clr-black, .15);
+    transition: transform .2s;
+
+    &__img-container
+    {
+        margin-top: -2rem;
+    }
+
+    &--save-icon
+    {
+       padding-bottom: 5rem;
+    }
+
+    &--tests-result
+    {
+       padding-bottom: 3rem;
+    }
+    
+    &__icon
+    {
+        margin-bottom: .5rem;
+        background-image: linear-gradient(to right, $clr-primary, $clr-secondary);
+        display: inline-block;
+        -webkit-background-clip: text;
+        color: transparent;
+
+    }
+    &:hover
+    {
+        transform:translateY(-1.5rem) scale(1.03);
+        box-shadow: 0 1.5rem 2rem rgba($clr-black, .15);
+
+    }
+
+    &__text
+    {
+
+    }
+}
